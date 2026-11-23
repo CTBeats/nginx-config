@@ -17,7 +17,7 @@ This repository contains the nginx configuration files from the CTBeats producti
 
 ## Backup Date
 
-Generated on: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+Generated on: 2026-11-23 08:07:13 UTC
 
 ## Permissions
 
