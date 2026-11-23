@@ -52,3 +52,13 @@ sudo nginx -t && sudo systemctl reload nginx
 ```
 
 Note: SSL certificates must be provisioned separately (Let's Encrypt or existing certs).
+
+## Release Archive
+
+A compressed tar.gz of the nginx configuration (with preserved permissions) is attached to the [2026-11-23 release](https://github.com/CTBeats/nginx-config/releases/tag/2026-11-23).
+
+```bash
+curl -L https://github.com/CTBeats/nginx-config/releases/download/2026-11-23/nginx-config-2026-11-23.tar.gz -o nginx-config.tar.gz
+tar xzf nginx-config.tar.gz
+sudo ./restore.sh
+```
